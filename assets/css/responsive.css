@@ -1,0 +1,325 @@
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .footer__box.footer_image{
+        display: none;
+    }
+    .col-xl-6.interface{
+        background-image: url(/assets/img/De-boekenzoeker/Group115.png);
+        padding: 170px 14px;
+        height: 375px;
+        background-size: cover;
+        background-position: center;
+    }
+    .my_bg__interface {
+        padding: 73px 100px;
+    }
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .befit__page .design__challenge .challenge__box {
+        padding: 40px 45px;
+    }
+    .interface__page .design__challenge .challenge__box {
+        padding: 0px 30px;
+    }
+    img.dots_project_image{
+        height: 500px !important;
+    }
+        .dots__page .design__challenge .challenge__box {
+        padding: 55px 65px;
+    }
+    .dots__page .project {
+        margin-bottom: 60px;
+    }
+    .footer__box.footer_image{
+        display: none;
+    }
+    .hero.my__hero__image img {
+        height: 390px;
+    }
+    section.challenge .my_bg {
+        background: #061D38;
+        padding: 65px 50px;
+    }
+    .challenge__box__text {
+        bottom: 10px;
+        left: 20px;
+    }
+    .my_secound_.befit {
+        padding: 167px 0px;
+    }
+    img.my_befit_image {
+        height: 345px;
+    }
+    .my_bg__interface {
+        background: #8A9ACE;
+        padding: 73px 50px;
+    }
+}
+
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .befit__page .header {
+        height: 110px;
+    }
+    .header.home__project {
+        height: 400px;
+    }
+    .interface__page .design__challenge .challenge__box {
+        padding: 40px 30px;
+    }
+    .dots_page_bg_image_one {
+        display: block;
+    }
+    .dots_page_bg_image_two {
+        display: none;
+    }
+    .dots__page .project__box {
+        margin-top: 30px;
+    }
+    .befit__page .design__challenge .challenge__box {
+        padding: 40px 60px;
+    }
+    .hero img{
+        display: none;
+    }
+    .projects.home__project .project__box {
+        padding: 30px 35px;
+    }
+    h2.mijn__titile{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .my_bg__interface {
+        padding: 50px 60px;
+    }
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .projects.home__project .project__box {
+        padding: 30px 35px;
+    }
+    .interface__page .design__challenge .challenge__box {
+        padding: 40px 30px;
+    }
+    .dots_page_bg_image_one {
+        display: block;
+    }
+    .dots_page_bg_image_two {
+        display: none;
+    }
+    .dots__page .design__challenge .challenge__box {
+        padding: 55px 30px;
+    }
+    .header.home__project {
+        height: 400px;
+    }
+    img.shaptwo {
+        display: none;
+    }
+    img.shapthree {
+        position: absolute;
+        right: 0;
+        top: 20%;
+        transform: rotate(180deg);
+    }
+    .befit__page .design__challenge .challenge__box {
+        padding: 40px 30px;
+    }
+    .hero img{
+        display: none;
+    }
+    .footer__box.img {
+        display: none;
+    }
+    .my_bg__interface {
+        background: #8A9ACE;
+        padding: 40px 50px;
+    }
+    .interface__title {
+        text-align: left;
+    }
+    .wireflow h2 {
+        font-size: 32px;
+    }
+    .interface__title h2{
+        font-size: 31px;
+    }
+    .overige__box h2 {
+        font-size: 30px;
+    }
+    .interface__title h2 {
+        font-size: 23px;
+    }
+    
+}
+
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .projects.home__project .project__box {
+        padding: 25px 10px;
+    }
+    .interface__page .design__challenge .challenge__box {
+        padding: 40px 15px;
+    }
+    .dots_page_bg_image_one {
+        display: block;
+    }
+    .dots_page_bg_image_two {
+        display: none;
+    }
+    .dots__page h2{
+        font-size: 28px;
+    }
+
+    .dots__page .project__box {
+        margin-top: 30px;
+    }
+    .dots__page .design__challenge .challenge__box {
+        padding: 55px 40px;
+    }
+    .befit__page .design__challenge .challenge__box {
+        padding: 40px 15px;
+    }
+    .overige__image img {
+        height: 170px !important;
+    }
+    .header.home__project {
+        height: 500px;
+    }
+    .hero img {
+        display: none;
+    }
+    .mijn{
+        padding-top: 0px !important;
+    }
+    .project-text:nth-child(2), .mockup:nth-child(2){
+        margin-left: 0px;
+    }
+
+    .stage__box h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 17px;
+    }
+    /* img.shaptwo {
+        position: absolute;
+        right: -25%;
+        top: 24%;
+    } */
+    img.shapthree {
+        position: absolute;
+    }
+    img.shaptwo {
+        display: none;
+    }
+    img.shapthree {
+        position: absolute;
+        right: 0;
+        top: 20%;
+        transform: rotate(180deg);
+    }
+    .footer__box.img {
+        display: none;
+    }
+    .copyright__box p {
+        font-size: 13px;
+    }
+    .footer__box.footer_image{
+        display: block;
+    }
+    .footer__box.footer_image img {
+        width: 75px;
+    }
+    .footer__box.footer_image.text-center {
+        position: absolute;
+        right: 35px;
+        top: 0px;
+    }
+    h2.mijn__titile{
+        margin: 60px 0px;
+    }
+    section.challenge .my_bg {
+        padding: 50px 30px;
+    }
+    .interface__title h2 {
+        font-size: 28px;
+    }
+   
+    .challenge__box__text p {
+        font-size: 13px;
+    }
+    .challenge__box__text span {
+        font-size: 13px;
+    }
+    .challenge__box__text {
+        position: absolute;
+        bottom: 17px;
+        left: 16px;
+    }
+
+    .het__proces {
+        margin-left: 5px;
+    }
+
+
+    .het__proces h2, .overige__box h2 { 
+        font-size: 20px;
+    }
+
+    .overige__box h2 { 
+        font-size: 22px;
+    }
+    section.header__section__title {
+        margin-top: 50px;
+    }
+
+
+    .overige__image h4{
+        font-size: 17px;
+    }
+    .my_bg__interface {
+        padding: 30px 15px;
+    }
+    .youtube__video iframe {
+        height:100%;
+    }
+    /* .interface__title {
+        text-align: left;
+    } */
+    .interface__title {
+        text-align: left;
+    }
+    .interface__title h2 {
+        font-size: 23px;
+    }
+}
+    
+
+
+@media only screen and (min-width: 200px) and (max-width: 319px) {
+    .header {
+        height: 600px;
+    }
+    .hero img {
+        display: none;
+   }
+   .hero h2 {
+    font-size: 26px;
+}
+}
